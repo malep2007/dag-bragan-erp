@@ -1,0 +1,11 @@
+.CustomerInquiryForm{
+    width: 700px;
+    margin: auto;
+    margin-top: 12px;
+    border: .2px solid #ccc;
+    padding: 12px;
+}
+
+.CustomerInquiryForm h5{
+    margin-top: 12px;
+}
