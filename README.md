@@ -4,4 +4,6 @@ This is a proposed ERP solution for cleaning companies. It enable one to capture
 
 It is currently being implemented in React. The backend will be supported by Django.
 
+Documentation details can be found here: https://malep2007.github.io/dag-bragan-erp/
+
 ### NB: Still a work in progress
