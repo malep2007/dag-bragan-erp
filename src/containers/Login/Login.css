@@ -1,0 +1,17 @@
+/* @media(min-width: 500px){
+    .Login{
+        width: 600px;
+        display: flex;
+        box-sizing: border-box
+    }
+} */
+
+.Login{
+    width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.LoginLabel {
+    width: 100px;
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header/Header';
 import CustomerInquiry from '../InquiryForm/CustomerInquiryForm/CustomerInquiryForm';
 import Aux from '../../hoc/Aux';
 
@@ -31,7 +30,6 @@ class InquiryForm extends Component {
     render() {
         return (
             <Aux className = {classes.InquiryForm}>
-                <Header />
                 <CustomerInquiry />
             </Aux>
         )

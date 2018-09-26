@@ -2,8 +2,8 @@
     width: 600px;
 }
 
-@media(min-width: 200px){
+@media(min-width: 300px){
     .InquiryForm{
-        width: 300px; 
+        width: 200px; 
     }
 }

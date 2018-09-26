@@ -1,0 +1,12 @@
+.NavigationItem {
+    list-style: none;
+}
+
+.NavigationItem a{
+    text-decoration: none;
+    color: #F8FCE6;
+}
+
+.NavigationItem a:hover{
+    color: white;
+}
