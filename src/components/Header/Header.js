@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import classes from './Header.css';
+
 import {
     Collapse,
     Navbar,
@@ -32,13 +35,13 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar light expand="md" className={classes.Header}>
                     <NavbarBrand>DAG & BRAGAN</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink>Customers</NavLink>
+                            <NavItem className={classes.NavItem}>
+                                <NavLink >Customers</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
