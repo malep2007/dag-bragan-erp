@@ -15,6 +15,9 @@ const loginForm = (props) => (
                 <label>Password</label>
                 <input type="password"></input>
             </div>
+            <div>
+                <button>Submit</button>
+            </div>
         </form>
     </Aux>
 );

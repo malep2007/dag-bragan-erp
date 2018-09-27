@@ -8,10 +8,23 @@
 
 .Login{
     width: 400px;
-    margin: auto;
+    height: 100%;
+    margin: 200px auto;
     box-sizing: border-box;
+    border: 1px solid #EFF9C7;
+    padding: 20px;
 }
 
-.LoginLabel {
+.Login label {
     width: 100px;
+    margin-right: 20px;
+}
+
+.LoginButton{
+    background-color: #90A738;
+    color: #F8FCE6;
+    padding: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 2px;
 }

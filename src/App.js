@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classes from './App.css';
-//import InquiryForm from './containers/InquiryForm/InquiryForm';
+import InquiryForm from './containers/InquiryForm/InquiryForm';
 import LoginForm from './containers/Login/Login';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -10,7 +10,8 @@ class App extends Component {
     return (
       <div className={classes.App}>
         <Header/>
-        <LoginForm/>
+        {/* <LoginForm/> */}
+        <InquiryForm/>
         <Footer/>
       </div>
     );
