@@ -1,0 +1,11 @@
+.NavigationBar {
+	height: 80px;
+}
+
+@media(max-width: 420px){
+	.NavigationBar {
+		width: 100%;
+		height: 120px;
+		margin-bottom: 5px;
+	}
+}

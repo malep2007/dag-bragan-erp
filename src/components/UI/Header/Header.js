@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import NavigationBar from '../../components/UI/NavigationBar/NavigationBar';
+import NavigationBar from '../Header/NavigationBar/NavigationBar';
 import classes from './Header.css';
 
 // import {
