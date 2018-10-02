@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/16b28cfcb3b5b466a4b3/maintainability)](https://codeclimate.com/github/malep2007/dag-bragan-erp/maintainability)
 # ERP Idea for Cleaning Service Providers
 ## Introduction
 This is a proposed ERP solution for cleaning companies. It enable one to capture client information from inquiry. future versions will be able to provide inspection guides an other tools that are required by the business.
