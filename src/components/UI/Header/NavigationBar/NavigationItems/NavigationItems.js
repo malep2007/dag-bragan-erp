@@ -4,7 +4,7 @@ import classes from './NavigationItems.css'
 import { Route, Link } from 'react-router-dom';
 import Customers from '../../../../Customers/Customers';
 import Inquiry from '../../../../Inquiry/Inquiry'
-import Aux from '../../../../../hoc/Aux';
+
 
 const navigationItems = (props) => {
 	return (
@@ -18,8 +18,8 @@ const navigationItems = (props) => {
 					<Link to="/customer/inquiry">Make Inquiry</Link>
 				</li>
 			</ul>
-			<Route path="/view" component={Customers} />
-			<Route path="/inquiry" component={Inquiry} />
+			<Route path="/customer/view" component={Customers} />
+			<Route path="/customer/inquiry" component={Inquiry} />
 		</div>
 
 

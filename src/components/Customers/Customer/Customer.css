@@ -1,0 +1,14 @@
+.Customer{
+	border: solid 1px grey;
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 20px 20px 30px 30px;
+	align-content: space-around;
+	box-shadow: grey 3px;
+	border-radius: 5px;
+	z-index: 10;
+	background-color: #E1EFA0;
+}
+

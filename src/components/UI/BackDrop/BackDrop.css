@@ -2,7 +2,7 @@
 	width: 420px;
 	height: 600px;
 	z-index: 200;
-	background-color: black;
+	background: rgba(0, 0, 0, 0.5);
 	opacity: 100%;
 	position: absolute;
 	opacity: 100;

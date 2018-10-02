@@ -3,7 +3,20 @@
 	flex-direction: column;
     justify-content: space-between;
     align-content: flex-end;
-    padding: 20px;
+	padding: 20px;
+	color: #F8FCE6;
+}
+
+.NavigationItems li{
+	list-style: none;
+}
+
+.NavigationItems li a {
+	text-decoration: none;
+	color: #F8FCE6;
+}
+.NavigationItems li a:hover {
+	color: #E1EFA0;
 }
 
 @media(min-width: 420px){

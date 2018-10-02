@@ -9,6 +9,7 @@ class Layout extends Component {
 		return (
 			<Aux>
 				<Header />
+
 				<Footer />
 			</Aux>
 		)
