@@ -12,14 +12,14 @@ const navigationItems = (props) => {
 			<ul className={classes.NavigationItems}>
 				<h3>Dag & Bragan</h3>
 				<li>
-					<Link to="/customer/view">View Customers</Link>
+					<Link to="/customer/view/">View Customers</Link>
 				</li>
 				<li>
 					<Link to="/customer/inquiry">Make Inquiry</Link>
 				</li>
 			</ul>
-			<Route path="/customer/view" component={Customers} />
-			<Route path="/customer/inquiry" component={Inquiry} />
+			<Route path="/customer/view/" component={Customers} />
+			<Route path="/customer/inquiry/" component={Inquiry} />
 		</div>
 
 
