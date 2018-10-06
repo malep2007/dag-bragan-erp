@@ -52,7 +52,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+	"test": "node scripts/test.js --env=jsdom",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -96,5 +98,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://malep2007.github.io/dag-bragan-erp/"
+  "homepage": "https://malep2007.github.io/dag-bragan-erp/",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
