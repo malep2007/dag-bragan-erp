@@ -13,7 +13,7 @@ const navigationItems = (props) => {
 				<ul className={classes.NavigationItems}>
 					<h3>Dag & Bragan</h3>
 					<li>
-						<Link to="/customer/view/">View Customers</Link>
+						<Link to="/customer/view/">Customers</Link>
 					</li>
 					<li>
 						<Link to="/customer/inquiry">Make Inquiry</Link>
